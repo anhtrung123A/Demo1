@@ -1,4 +1,4 @@
-fetch("https://book-application-i16h.onrender.com/books")
+fetch("https://book-application-xpcr.onrender.com/books")
 .then(function(response){
     return response.json()
 }).then(function(books){
@@ -7,7 +7,7 @@ fetch("https://book-application-i16h.onrender.com/books")
         <div class="card">
             <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
                 <img src="${book.image}" class="w-100" style="width:296px; height:445px">
-                <a href="https://book-application-i16h.onrender.com/book/${book.id}">
+                <a href="https://book-application-xpcr.onrender.com/book/${book.id}">
                     <div class="mask">
                         <div class="d-flex justify-content-start align-items-end h-100">
                             <h5><span class="badge bg-dark ms-2">NEW</span></h5>
